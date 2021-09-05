@@ -1,10 +1,10 @@
 # Data analysis
 - Document here the project: minimal_production_code
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+- Description: minimal code for deployment. It includes:
+* coding an API with fastAPI
+* accesing the API via a UVICORN server
+* streamlite, docker ...
 
-Please document the project the better you can.
 
 # Startup the project
 
