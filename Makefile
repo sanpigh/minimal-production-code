@@ -1,4 +1,16 @@
 # ----------------------------------
+#          DEPLOY IMAGE IN Google Registry
+# ----------------------------------
+export GCP_PROJECT_ID='le-wagon-bootcamp-313312'
+export DOCKER_IMAGE_NAME='minimal_production_code_docker_image_gcp'
+export GCR_MULTI_REGION='eu.gcr.io'
+export GCR_REGION='europe_west1'
+
+
+
+
+
+# ----------------------------------
 #          INSTALL & TEST
 # ----------------------------------
 install_requirements:
