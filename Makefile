@@ -6,6 +6,11 @@ export DOCKER_IMAGE_NAME='minimal_production_code_docker_image_gcp'
 export GCR_MULTI_REGION='eu.gcr.io'
 export GCR_REGION='europe_west1'
 
+docker_build_image_for_GCP:
+	docker build -t ${GCR_MULTI_REGION}/${GCP_PROJECT_ID}/${DOCKER_IMAGE_NAME} .
+
+docker_test_image_for_GCP_locally:
+	docker run -e PORT=8000 -p 8080:8000 ${GCR_MULTI_REGION}/${GCP_PROJECT_ID}/${DOCKER_IMAGE_NAME}
 
 
 
