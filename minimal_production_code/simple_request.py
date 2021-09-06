@@ -1,12 +1,12 @@
 import requests
 
 
-url = 'http://127.0.0.1:8000/multiply'
+url = 'http://127.0.0.1:8080/multiply'
 
 
 params = {
     'a' : 2,
-    'b' : 3
+    'b' : 5
 }
 
 response = requests.get(url, params=params)
