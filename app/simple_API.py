@@ -11,5 +11,5 @@ def multiply_fuction(a, b):
     return {'a' : a, 'b' : b, 'a*b' : float(a)*float(b)}
 
 @app.get('/add')
-def multiply_fuction(a, b):
+def add_fuction(a, b):
     return {'a' : a, 'b' : b, 'a+b' : float(a)+float(b)}
