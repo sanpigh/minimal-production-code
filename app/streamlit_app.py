@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 #with st.echo():
-st.write('# Substract two numbers:')
+st.write('# Substracting two numbers:')
 url = f'https://minimal-production-code-3jzq5a6kpq-ew.a.run.app/dif'
 first_number  = st.text_input('first number: ', '5')
 second_number = st.text_input('second number: ', '7')
