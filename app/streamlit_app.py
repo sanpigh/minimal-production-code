@@ -19,8 +19,3 @@ st.json(response.json())
 st.write(type(response.json()))
 st.write(response.json()["a+b"])
 
-#print(response.status_code)
-#print(response.json())
-
-
-#st.write('The addition is', f'{response.json()['a']}')
