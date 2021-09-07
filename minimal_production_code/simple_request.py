@@ -11,7 +11,7 @@ url = f'https://minimal-production-code-3jzq5a6kpq-ew.a.run.app/dif'
 
 params = {
     'a' : 14,
-    'b' : 14
+    'b' : 11
 }
 
 response = requests.get(url, params=params)
